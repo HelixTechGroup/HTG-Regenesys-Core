@@ -1,0 +1,38 @@
+{
+  "FormKey": "00134A:HTG-Regenesys-Core.esp",
+  "EditorID": "Regenesys_SystemIntroduction",
+  "FormVersion": 576,
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Regenesis and You"
+  },
+  "ShowBodyText": "Document",
+  "MenuButtonStyle": [],
+  "Style": "Kiosk",
+  "INAM": {
+    "TargetLanguage": "English",
+    "Value": "Regenesis Intro"
+  },
+  "BodyTexts": [],
+  "MenuItems": [
+    {
+      "Text": {
+        "TargetLanguage": "English",
+        "Value": "I Understand"
+      },
+      "ShortText": {
+        "TargetLanguage": "English",
+        "Value": ""
+      },
+      "UnusedISET": 57005,
+      "Flags": [
+        "CreatesNewWindow"
+      ],
+      "UnusedISET2": "0x000000",
+      "ID": 1,
+      "Target": {
+        "MutagenObjectType": "TerminalMenuItemReturnToPrevious"
+      }
+    }
+  ]
+}

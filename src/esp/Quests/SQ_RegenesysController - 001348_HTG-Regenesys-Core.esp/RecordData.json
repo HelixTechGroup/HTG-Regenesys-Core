@@ -1,0 +1,187 @@
+{
+  "FormKey": "001348:HTG-Regenesys-Core.esp",
+  "EditorID": "SQ_RegenesysController",
+  "FormVersion": 576,
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "HTG:Quests:SQ_RegenesysController",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SystemUtilities",
+            "Object": "001348:HTG-Regenesys-Core.esp",
+            "Alias": 7
+          }
+        ]
+      }
+    ],
+    "Script": {
+      "Name": ""
+    },
+    "Aliases": [
+      {
+        "Property": {
+          "Name": "",
+          "Object": "001348:HTG-Regenesys-Core.esp",
+          "Alias": 7
+        },
+        "Scripts": [
+          {
+            "Name": "htg:structs"
+          },
+          {
+            "Name": "htg:systemlogger",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptStringProperty",
+                "Name": "MainLogName",
+                "Data": "Regenesys"
+              },
+              {
+                "MutagenObjectType": "ScriptStringProperty",
+                "Name": "SubLogName",
+                "Data": ""
+              }
+            ]
+          },
+          {
+            "Name": "htg:timerutility"
+          },
+          {
+            "Name": "htg:formutility"
+          },
+          {
+            "Name": "htg:intutility"
+          },
+          {
+            "Name": "htg:armorutility",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "Backpack",
+                "Object": "23C7BF:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "ArmorTypes",
+                "Object": "000819:HTG-System-Core.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "Clothes",
+                "Object": "0E048C:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "Hat",
+                "Object": "0E048B:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "Helmet",
+                "Object": "23C7C1:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "Spacesuit",
+                "Object": "23C7C0:Starfield.esm"
+              }
+            ]
+          },
+          {
+            "Name": "HTG:UtilityExt"
+          },
+          {
+            "Name": "HTG:SystemUtilities"
+          }
+        ]
+      },
+      {
+        "Property": {
+          "Name": "",
+          "Object": "001348:HTG-Regenesys-Core.esp",
+          "Alias": 12
+        },
+        "Scripts": [
+          {
+            "Name": "HTG:Quests:DataslateName",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "SystemUtilities",
+                "Object": "001348:HTG-Regenesys-Core.esp",
+                "Alias": 7
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "DataslateTracker",
+                "Object": "000824:HTG-System-Core.esm",
+                "Alias": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Regenesys System Controller"
+  },
+  "Data": {
+    "Flags": [
+      "StartGameEnabled",
+      "StartsEnabled"
+    ],
+    "Priority": 30,
+    "Unused": "0x000000"
+  },
+  "Filter": "Regenesys\\",
+  "UnusedConditions": [],
+  "Stages": [
+    {}
+  ],
+  "Aliases": [
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 7,
+      "Name": "SystemUtilities",
+      "Flags": [
+        "AllowReuseInQuest"
+      ],
+      "ALFG": 0,
+      "ForcedReference": "000812:HTG-System-Core.esm",
+      "VoiceTypes": "Null"
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 11,
+      "Name": "DataslateTerminal",
+      "Flags": [
+        "AllowReuseInQuest",
+        "ExternalAliasLinked"
+      ],
+      "ALFG": 0,
+      "VoiceTypes": "Null",
+      "TerminalMenus": [
+        "00134A:HTG-Regenesys-Core.esp"
+      ]
+    },
+    {
+      "MutagenObjectType": "QuestReferenceAlias",
+      "ID": 12,
+      "Name": "DataslateName",
+      "Flags": [
+        "Optional",
+        "AllowReuseInQuest",
+        "UsesStoredText"
+      ],
+      "ALFG": 0,
+      "DisplayName": "00080B:HTG-Regenesys-Core.esp",
+      "VoiceTypes": "Null"
+    }
+  ],
+  "QuestGroup": "000810:HTG-Regenesys-Core.esp",
+  "SwfFile": "skillpatches.swf"
+}

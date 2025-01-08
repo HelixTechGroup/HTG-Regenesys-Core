@@ -1,0 +1,20 @@
+{
+  "FormKey": "00080B:HTG-Regenesys-Core.esp",
+  "EditorID": "RegenesysDataslateName",
+  "FormVersion": 576,
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "RegeneSys Assistant"
+  },
+  "OwnerQuest": "001348:HTG-Regenesys-Core.esp",
+  "DisplayTime": 2,
+  "BNAM": 4294967295,
+  "ShortTitle": {
+    "TargetLanguage": "English",
+    "Value": "R.A.D.s"
+  }
+}
