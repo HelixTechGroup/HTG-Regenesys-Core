@@ -1,0 +1,16 @@
+<PapyrusProject
+	Flags="S:\XboxGames\Starfield\Content\Data\Scripts\Source\Starfield_Papyrus_Flags.flg" 
+	Game="sf1"
+	Output="S:\XboxGames\Starfield\Content\Data\Scripts" 
+	Asm="Discard" 
+	Optimize="false" 
+	Release="false" 
+	Final="false">
+	<Imports>
+		<Import>S:\XboxGames\Starfield\Content\Data\Scripts\Source</Import>
+	</Imports>
+	<Scripts>
+		<Script>HTG:Core:Quests:DataslateName</Script>
+		<Script>HTG:Core:Quests:SQ_RegenesysController</Script>
+	</Scripts>
+</PapyrusProject>
