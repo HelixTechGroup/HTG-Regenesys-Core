@@ -1,11 +1,14 @@
 {
   "SpriggitSource": {
-    "PackageName": "0.36.13",
+    "PackageName": "0.37.0-alpha.4",
     "Version": ""
   },
   "ModKey": "HTG-Regenesys-Core.esp",
   "GameRelease": "Starfield",
   "ModHeader": {
+    "Flags": [
+      "Medium"
+    ],
     "FormVersion": 576,
     "Author": "HelixTechGroup",
     "MasterReferences": [
@@ -16,6 +19,7 @@
         "Master": "HTG-System-Core.esm"
       }
     ],
-    "BNAM": "0x4D61696E00"
+    "BNAM": "0x4D61696E00",
+    "INCC": 0
   }
 }

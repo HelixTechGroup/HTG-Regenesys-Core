@@ -1,21 +1,8 @@
 {
-  "FormKey": "001348:HTG-Regenesys-Core.esp",
-  "EditorID": "SQ_RegenesysController",
+  "FormKey": "00080D:HTG-Regenesys-Core.esp",
+  "EditorID": "SQ_RegenesysTemplate",
   "FormVersion": 576,
   "VirtualMachineAdapter": {
-    "Scripts": [
-      {
-        "Name": "HTG:Core:Quests:SQ_RegenesysController",
-        "Properties": [
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SystemUtilities",
-            "Object": "001348:HTG-Regenesys-Core.esp",
-            "Alias": 7
-          }
-        ]
-      }
-    ],
     "Script": {
       "Name": ""
     },
@@ -23,7 +10,7 @@
       {
         "Property": {
           "Name": "",
-          "Object": "001348:HTG-Regenesys-Core.esp",
+          "Object": "00080D:HTG-Regenesys-Core.esp",
           "Alias": 7
         },
         "Scripts": [
@@ -101,18 +88,15 @@
   },
   "Name": {
     "TargetLanguage": "English",
-    "Value": "Regenesys System Controller"
+    "Value": "Regenesys System Controller Template"
   },
   "Data": {
-    "Flags": [
-      "StartGameEnabled",
-      "StartsEnabled"
-    ],
-    "Priority": 30,
+    "Priority": 40,
     "Unused": "0x000000"
   },
   "QuestType": "00080F:HTG-System-Core.esm",
-  "Filter": "Regenesys\\",
+  "Filter": "Regenesys\\Templates\\",
+  "Summary": "Template Quest.\r\nDuplicate. Rename and create a script that Extends HTG:QuestExt.\r\nIf your quest has objectives please use another type other than QuestTypeSystem/",
   "UnusedConditions": [],
   "Stages": [
     {}
@@ -123,10 +107,14 @@
       "ID": 7,
       "Name": "SystemUtilities",
       "Flags": [
-        "AllowReuseInQuest"
+        "AllowReuseInQuest",
+        "ExternalAliasLinked"
       ],
       "ALFG": 0,
-      "ForcedReference": "000812:HTG-System-Core.esm",
+      "External": {
+        "Quest": "001348:HTG-Regenesys-Core.esp",
+        "AliasID": 7
+      },
       "VoiceTypes": "Null"
     },
     {
@@ -134,35 +122,18 @@
       "ID": 11,
       "Name": "DataslateTerminal",
       "Flags": [
-        "AllowReuseInQuest"
-      ],
-      "ALFG": 0,
-      "ForcedReference": "000884:HTG-System-Core.esm",
-      "VoiceTypes": "Null",
-      "TerminalMenus": [
-        "00134A:HTG-Regenesys-Core.esp"
-      ]
-    },
-    {
-      "MutagenObjectType": "QuestReferenceAlias",
-      "ID": 12,
-      "Name": "DataslateName",
-      "Flags": [
-        "Optional",
-        "QuestObject",
         "AllowReuseInQuest",
-        "UsesStoredText",
-        "ExternalAliasLinked",
-        "0x80000000",
-        "0x0"
+        "ExternalAliasLinked"
       ],
       "ALFG": 0,
       "External": {
-        "Quest": "000824:HTG-System-Core.esm",
-        "AliasID": 10
+        "Quest": "001348:HTG-Regenesys-Core.esp",
+        "AliasID": 11
       },
-      "DisplayName": "00080B:HTG-Regenesys-Core.esp",
-      "VoiceTypes": "Null"
+      "VoiceTypes": "Null",
+      "TerminalMenus": [
+        "000806:HTG-Regenesys-Core.esp"
+      ]
     }
   ],
   "QuestGroup": "000810:HTG-Regenesys-Core.esp",

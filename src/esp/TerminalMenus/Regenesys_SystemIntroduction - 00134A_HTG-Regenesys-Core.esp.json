@@ -4,16 +4,24 @@
   "FormVersion": 576,
   "Name": {
     "TargetLanguage": "English",
-    "Value": "Regenesis and You"
+    "Value": "Regenesys and You"
   },
   "ShowBodyText": "Document",
   "MenuButtonStyle": [],
   "Style": "Kiosk",
   "INAM": {
     "TargetLanguage": "English",
-    "Value": "Regenesis Intro"
+    "Value": "Regenesys Intro"
   },
-  "BodyTexts": [],
+  "BodyTexts": [
+    {
+      "Text": {
+        "TargetLanguage": "English",
+        "Value": "Project Regenesys is meant to provide players with a vanilla++ experience.\r\nWhile it try's to avoid major interference with the game and mod compatibility, some functionality and features do alter major records."
+      },
+      "UseTemplatedText": false
+    }
+  ],
   "MenuItems": [
     {
       "Text": {
@@ -26,10 +34,39 @@
       },
       "UnusedISET": 57005,
       "Flags": [
-        "CreatesNewWindow"
+        "StartsOpen"
       ],
       "UnusedISET2": "0x000000",
       "ID": 1,
+      "Target": {
+        "MutagenObjectType": "TerminalMenuItemReturnToDesktop"
+      },
+      "Conditions": [
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "Unknown2": 16658,
+          "Data": {
+            "MutagenObjectType": "GetGlobalValueConditionData",
+            "FirstParameter": "000807:HTG-Regenesys-Core.esp"
+          },
+          "ComparisonValue": 1.0
+        }
+      ]
+    },
+    {
+      "Text": {
+        "TargetLanguage": "English",
+        "Value": "[Go Back]"
+      },
+      "ShortText": {
+        "TargetLanguage": "English",
+        "Value": ""
+      },
+      "Flags": [
+        "CreatesNewWindow"
+      ],
+      "UnusedISET2": "0x000000",
+      "ID": 1000,
       "Target": {
         "MutagenObjectType": "TerminalMenuItemReturnToPrevious"
       }
