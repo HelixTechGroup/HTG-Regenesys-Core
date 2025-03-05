@@ -1,4 +1,4 @@
-Scriptname HTG:Quests:SQ_RegenesysController extends HTG:QuestExt
+Scriptname HTG:Core:Quests:SQ_RegenesysController extends HTG:QuestExt
 
 Event OnQuestInit()
     Parent.OnQuestInit()

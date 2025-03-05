@@ -2,6 +2,26 @@
   "FormKey": "00134A:HTG-Regenesys-Core.esp",
   "EditorID": "Regenesys_SystemIntroduction",
   "FormVersion": 576,
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "HTG:Core:Terminals:Regenesys_SystemIntroduction",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SystemUtilities",
+            "Object": "001348:HTG-Regenesys-Core.esp",
+            "Alias": 7
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "FirstActivation",
+            "Object": "000807:HTG-Regenesys-Core.esp"
+          }
+        ]
+      }
+    ]
+  },
   "Name": {
     "TargetLanguage": "English",
     "Value": "Regenesys and You"
@@ -33,9 +53,6 @@
         "Value": ""
       },
       "UnusedISET": 57005,
-      "Flags": [
-        "StartsOpen"
-      ],
       "UnusedISET2": "0x000000",
       "ID": 1,
       "Target": {
@@ -62,9 +79,6 @@
         "TargetLanguage": "English",
         "Value": ""
       },
-      "Flags": [
-        "CreatesNewWindow"
-      ],
       "UnusedISET2": "0x000000",
       "ID": 1000,
       "Target": {

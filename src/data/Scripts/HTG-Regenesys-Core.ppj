@@ -10,6 +10,7 @@
 		<Import>S:\XboxGames\Starfield\Content\Data\Scripts\Source</Import>
 	</Imports>
 	<Scripts>
+		<Script>HTG:Core:Terminals:Regenesys_SystemIntroduction</Script>
 		<Script>HTG:Core:Quests:DataslateName</Script>
 		<Script>HTG:Core:Quests:SQ_RegenesysController</Script>
 	</Scripts>
