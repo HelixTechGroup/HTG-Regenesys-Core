@@ -8,6 +8,7 @@ Event OnTerminalMenuEnter(TerminalMenu akTerminalBase, ObjectReference akTermina
     Parent.OnTerminalMenuEnter(akTerminalBase, akTerminalRef)
 
     If FirstActivation.GetValueInt() == 0
+        akTerminalRef.BlockActivation()
     EndIf
 EndEvent
 

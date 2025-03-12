@@ -8,6 +8,7 @@
   "ModHeader": {
     "FormVersion": 576,
     "Author": "HelixTechGroup",
+    "Description": "This is a part of Project Regenesys, A Vanilla++ take on additional features and rebalances.\r\nAll additions will try to feel natural to the game and add to its replay.\r\nThis module is the core module.\r\n\r\nThis Mod does nothing on its own.\r\nThis mod includes all common functionality and forms for use in Project Regenesys including:\r\nCore system quest that holds the dataslate name, terminal reference, common keywords, etc.",
     "MasterReferences": [
       {
         "Master": "Starfield.esm"

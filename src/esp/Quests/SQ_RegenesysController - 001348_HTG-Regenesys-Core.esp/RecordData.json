@@ -65,7 +65,7 @@
               {
                 "MutagenObjectType": "ScriptObjectProperty",
                 "Name": "ArmorTypes",
-                "Object": "000819:HTG-System-Core.esm"
+                "Object": "000819:HTG-Regenesys-Core.esp"
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
@@ -111,7 +111,7 @@
     "Priority": 30,
     "Unused": "0x000000"
   },
-  "QuestType": "00080F:HTG-System-Core.esm",
+  "QuestType": "00080F:HTG-Regenesys-Core.esp",
   "Filter": "Regenesys\\",
   "UnusedConditions": [],
   "Stages": [
@@ -126,7 +126,7 @@
         "AllowReuseInQuest"
       ],
       "ALFG": 0,
-      "ForcedReference": "000812:HTG-System-Core.esm",
+      "ForcedReference": "000812:HTG-Regenesys-Core.esp",
       "VoiceTypes": "Null"
     },
     {
@@ -137,7 +137,7 @@
         "AllowReuseInQuest"
       ],
       "ALFG": 0,
-      "ForcedReference": "000884:HTG-System-Core.esm",
+      "ForcedReference": "000884:HTG-Regenesys-Core.esp",
       "VoiceTypes": "Null",
       "TerminalMenus": [
         "00134A:HTG-Regenesys-Core.esp"
@@ -158,7 +158,7 @@
       ],
       "ALFG": 0,
       "External": {
-        "Quest": "000824:HTG-System-Core.esm",
+        "Quest": "000824:HTG-Regenesys-Core.esp",
         "AliasID": 10
       },
       "DisplayName": "00080B:HTG-Regenesys-Core.esp",
