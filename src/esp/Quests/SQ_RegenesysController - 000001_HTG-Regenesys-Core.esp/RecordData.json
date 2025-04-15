@@ -1,5 +1,5 @@
 {
-  "FormKey": "001348:HTG-Regenesys-Core.esp",
+  "FormKey": "000001:HTG-Regenesys-Core.esp",
   "EditorID": "SQ_RegenesysController",
   "FormVersion": 576,
   "VirtualMachineAdapter": {
@@ -10,7 +10,7 @@
           {
             "MutagenObjectType": "ScriptObjectProperty",
             "Name": "SystemUtilities",
-            "Object": "001348:HTG-Regenesys-Core.esp",
+            "Object": "000001:HTG-Regenesys-Core.esp",
             "Alias": 7
           }
         ]
@@ -23,7 +23,7 @@
       {
         "Property": {
           "Name": "",
-          "Object": "001348:HTG-Regenesys-Core.esp",
+          "Object": "000001:HTG-Regenesys-Core.esp",
           "Alias": 7
         },
         "Scripts": [
@@ -69,13 +69,8 @@
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "Clothes",
-                "Object": "0E048C:Starfield.esm"
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "Hat",
-                "Object": "0E048B:Starfield.esm"
+                "Name": "Spacesuit",
+                "Object": "23C7C0:Starfield.esm"
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
@@ -84,8 +79,13 @@
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "Spacesuit",
-                "Object": "23C7C0:Starfield.esm"
+                "Name": "Hat",
+                "Object": "0E048B:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "Clothes",
+                "Object": "0E048C:Starfield.esm"
               }
             ]
           },
@@ -93,7 +93,14 @@
             "Name": "HTG:UtilityExt"
           },
           {
-            "Name": "HTG:SystemUtilities"
+            "Name": "HTG:SystemUtilities",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "DebugGlobal",
+                "Object": "0A7D31:Starfield.esm"
+              }
+            ]
           }
         ]
       }
@@ -108,10 +115,9 @@
       "StartGameEnabled",
       "StartsEnabled"
     ],
-    "Priority": 30,
+    "Priority": 40,
     "Unused": "0x000000"
   },
-  "QuestType": "00080F:HTG-Regenesys-Core.esp",
   "Filter": "Regenesys\\",
   "UnusedConditions": [],
   "Stages": [
@@ -126,7 +132,6 @@
         "AllowReuseInQuest"
       ],
       "ALFG": 0,
-      "ForcedReference": "000812:HTG-Regenesys-Core.esp",
       "VoiceTypes": "Null"
     },
     {
@@ -134,13 +139,13 @@
       "ID": 11,
       "Name": "DataslateTerminal",
       "Flags": [
-        "AllowReuseInQuest"
+        "AllowReuseInQuest",
+        "ExternalAliasLinked"
       ],
       "ALFG": 0,
-      "ForcedReference": "000884:HTG-Regenesys-Core.esp",
       "VoiceTypes": "Null",
       "TerminalMenus": [
-        "00134A:HTG-Regenesys-Core.esp"
+        "000002:HTG-Regenesys-Core.esp"
       ]
     },
     {
@@ -157,10 +162,6 @@
         "0x0"
       ],
       "ALFG": 0,
-      "External": {
-        "Quest": "000824:HTG-Regenesys-Core.esp",
-        "AliasID": 10
-      },
       "DisplayName": "00080B:HTG-Regenesys-Core.esp",
       "VoiceTypes": "Null"
     }

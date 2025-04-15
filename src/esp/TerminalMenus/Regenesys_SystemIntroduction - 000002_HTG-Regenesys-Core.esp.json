@@ -1,5 +1,5 @@
 {
-  "FormKey": "00134A:HTG-Regenesys-Core.esp",
+  "FormKey": "000002:HTG-Regenesys-Core.esp",
   "EditorID": "Regenesys_SystemIntroduction",
   "FormVersion": 576,
   "VirtualMachineAdapter": {
@@ -10,7 +10,7 @@
           {
             "MutagenObjectType": "ScriptObjectProperty",
             "Name": "SystemUtilities",
-            "Object": "001348:HTG-Regenesys-Core.esp",
+            "Object": "000001:HTG-Regenesys-Core.esp",
             "Alias": 7
           },
           {

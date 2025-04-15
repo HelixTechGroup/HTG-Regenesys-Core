@@ -1,5 +1,5 @@
 Scriptname HTG:Core:Quests:DataslateName extends HTG:ReferenceAliasExt
-import HTG:Dataslate:Quests
+import HTG:Quests
 
 ; DataslateTracker Property DataslateTracker Auto Const Mandatory
 
