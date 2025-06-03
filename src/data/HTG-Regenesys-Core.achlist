@@ -1,5 +1,5 @@
 [
-	"Data\\Scripts\\HTG\\Core\\Quests\\DataslateName.pex",
-	"Data\\SCRIPTS\\HTG\\Core\\Quests\\SQ_RegenesysController.pex",
-	"Data\\SCRIPTS\\HTG\\Core\\Terminals\\Regenesys_SystemIntroduction.pex"
+	"Data\\scripts\\HTG\\Core\\Quests\\DataslateName.pex",
+	"Data\\scripts\\HTG\\Core\\Quests\\SQ_RegenesysController.pex",
+	"Data\\scripts\\HTG\\Core\\Terminals\\Regenesys_SystemIntroduction.pex"
 ]

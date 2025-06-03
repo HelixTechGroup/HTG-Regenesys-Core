@@ -1,7 +1,6 @@
 {
   "FormKey": "000002:HTG-Regenesys-Core.esp",
   "EditorID": "Regenesys_SystemIntroduction",
-  "FormVersion": 576,
   "VirtualMachineAdapter": {
     "Scripts": [
       {
@@ -61,7 +60,7 @@
       "Conditions": [
         {
           "MutagenObjectType": "ConditionFloat",
-          "Unknown2": 16658,
+          "Unknown2": 16670,
           "Data": {
             "MutagenObjectType": "GetGlobalValueConditionData",
             "FirstParameter": "000807:HTG-Regenesys-Core.esp"

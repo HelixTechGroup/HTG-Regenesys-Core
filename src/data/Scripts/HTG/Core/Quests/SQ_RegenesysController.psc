@@ -7,5 +7,7 @@ Event OnQuestInit()
 EndEvent
 
 Event OnQuestStarted()
+    Parent.OnQuestStarted()
+    
     Logger.Log("Controller Started.")
 EndEvent

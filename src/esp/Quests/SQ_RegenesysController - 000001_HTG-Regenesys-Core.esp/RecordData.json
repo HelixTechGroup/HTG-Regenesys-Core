@@ -1,19 +1,10 @@
 {
   "FormKey": "000001:HTG-Regenesys-Core.esp",
   "EditorID": "SQ_RegenesysController",
-  "FormVersion": 576,
   "VirtualMachineAdapter": {
     "Scripts": [
       {
-        "Name": "HTG:Core:Quests:SQ_RegenesysController",
-        "Properties": [
-          {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SystemUtilities",
-            "Object": "000001:HTG-Regenesys-Core.esp",
-            "Alias": 7
-          }
-        ]
+        "Name": "HTG:Core:Quests:SQ_RegenesysController"
       }
     ],
     "Script": {
@@ -65,17 +56,12 @@
               {
                 "MutagenObjectType": "ScriptObjectProperty",
                 "Name": "ArmorTypes",
-                "Object": "000819:HTG-Regenesys-Core.esp"
+                "Object": "000819:HTG-System-Core.esm"
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "Spacesuit",
-                "Object": "23C7C0:Starfield.esm"
-              },
-              {
-                "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "Helmet",
-                "Object": "23C7C1:Starfield.esm"
+                "Name": "Clothes",
+                "Object": "0E048C:Starfield.esm"
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
@@ -84,8 +70,13 @@
               },
               {
                 "MutagenObjectType": "ScriptObjectProperty",
-                "Name": "Clothes",
-                "Object": "0E048C:Starfield.esm"
+                "Name": "Helmet",
+                "Object": "23C7C1:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "Spacesuit",
+                "Object": "23C7C0:Starfield.esm"
               }
             ]
           },
@@ -118,6 +109,7 @@
     "Priority": 40,
     "Unused": "0x000000"
   },
+  "QuestType": "00080F:HTG-System-Core.esm",
   "Filter": "Regenesys\\",
   "UnusedConditions": [],
   "Stages": [
@@ -132,6 +124,7 @@
         "AllowReuseInQuest"
       ],
       "ALFG": 0,
+      "ForcedReference": "000812:HTG-System-Core.esm",
       "VoiceTypes": "Null"
     },
     {
@@ -139,10 +132,10 @@
       "ID": 11,
       "Name": "DataslateTerminal",
       "Flags": [
-        "AllowReuseInQuest",
-        "ExternalAliasLinked"
+        "AllowReuseInQuest"
       ],
       "ALFG": 0,
+      "ForcedReference": "000884:HTG-System-Core.esm",
       "VoiceTypes": "Null",
       "TerminalMenus": [
         "000002:HTG-Regenesys-Core.esp"
@@ -162,6 +155,10 @@
         "0x0"
       ],
       "ALFG": 0,
+      "External": {
+        "Quest": "000824:HTG-System-Core.esm",
+        "AliasID": 10
+      },
       "DisplayName": "00080B:HTG-Regenesys-Core.esp",
       "VoiceTypes": "Null"
     }
