@@ -1,5 +1,5 @@
 {
-  "FormKey": "000002:HTG-Regenesys-Core.esp",
+  "FormKey": "000007:HTG-Regenesys-Core.esp",
   "EditorID": "Regenesys_SystemIntroduction",
   "VirtualMachineAdapter": {
     "Scripts": [
@@ -9,13 +9,13 @@
           {
             "MutagenObjectType": "ScriptObjectProperty",
             "Name": "SystemUtilities",
-            "Object": "000001:HTG-Regenesys-Core.esp",
+            "Object": "000005:HTG-Regenesys-Core.esp",
             "Alias": 7
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
             "Name": "FirstActivation",
-            "Object": "000807:HTG-Regenesys-Core.esp"
+            "Object": "000003:HTG-Regenesys-Core.esp"
           }
         ]
       }
@@ -63,7 +63,7 @@
           "Unknown2": 16670,
           "Data": {
             "MutagenObjectType": "GetGlobalValueConditionData",
-            "FirstParameter": "000807:HTG-Regenesys-Core.esp"
+            "FirstParameter": "000003:HTG-Regenesys-Core.esp"
           },
           "ComparisonValue": 1.0
         }

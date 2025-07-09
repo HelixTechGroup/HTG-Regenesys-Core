@@ -1,5 +1,5 @@
 {
-  "FormKey": "000001:HTG-Regenesys-Core.esp",
+  "FormKey": "000005:HTG-Regenesys-Core.esp",
   "EditorID": "SQ_RegenesysController",
   "VirtualMachineAdapter": {
     "Scripts": [
@@ -14,7 +14,7 @@
       {
         "Property": {
           "Name": "",
-          "Object": "000001:HTG-Regenesys-Core.esp",
+          "Object": "000005:HTG-Regenesys-Core.esp",
           "Alias": 7
         },
         "Scripts": [
@@ -32,7 +32,7 @@
               {
                 "MutagenObjectType": "ScriptStringProperty",
                 "Name": "SubLogName",
-                "Data": ""
+                "Data": "Core"
               }
             ]
           },
@@ -77,6 +77,11 @@
                 "MutagenObjectType": "ScriptObjectProperty",
                 "Name": "Spacesuit",
                 "Object": "23C7C0:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "DontShowInUI",
+                "Object": "374EFA:Starfield.esm"
               }
             ]
           },
@@ -90,6 +95,11 @@
                 "MutagenObjectType": "ScriptObjectProperty",
                 "Name": "DebugGlobal",
                 "Object": "0A7D31:Starfield.esm"
+              },
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "ModInfoForm",
+                "Object": "000004:HTG-Regenesys-Core.esp"
               }
             ]
           }
@@ -121,10 +131,15 @@
       "ID": 7,
       "Name": "SystemUtilities",
       "Flags": [
-        "AllowReuseInQuest"
+        "AllowReuseInQuest",
+        "AllowReserved",
+        "ExternalAliasLinked"
       ],
       "ALFG": 0,
-      "ForcedReference": "000812:HTG-System-Core.esm",
+      "External": {
+        "Quest": "000801:HTG-System-Core.esm",
+        "AliasID": 0
+      },
       "VoiceTypes": "Null"
     },
     {
@@ -132,13 +147,17 @@
       "ID": 11,
       "Name": "DataslateTerminal",
       "Flags": [
-        "AllowReuseInQuest"
+        "AllowReuseInQuest",
+        "ExternalAliasLinked"
       ],
       "ALFG": 0,
-      "ForcedReference": "000884:HTG-System-Core.esm",
+      "External": {
+        "Quest": "000824:HTG-System-Core.esm",
+        "AliasID": 5
+      },
       "VoiceTypes": "Null",
       "TerminalMenus": [
-        "000002:HTG-Regenesys-Core.esp"
+        "000007:HTG-Regenesys-Core.esp"
       ]
     },
     {
@@ -159,10 +178,10 @@
         "Quest": "000824:HTG-System-Core.esm",
         "AliasID": 10
       },
-      "DisplayName": "00080B:HTG-Regenesys-Core.esp",
+      "DisplayName": "000006:HTG-Regenesys-Core.esp",
       "VoiceTypes": "Null"
     }
   ],
-  "QuestGroup": "000810:HTG-Regenesys-Core.esp",
+  "QuestGroup": "000001:HTG-Regenesys-Core.esp",
   "SwfFile": "skillpatches.swf"
 }

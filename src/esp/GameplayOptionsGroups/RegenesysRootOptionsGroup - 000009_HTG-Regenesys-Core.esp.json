@@ -1,5 +1,5 @@
 {
-  "FormKey": "000812:HTG-Regenesys-Core.esp",
+  "FormKey": "000009:HTG-Regenesys-Core.esp",
   "EditorID": "RegenesysRootOptionsGroup",
   "Name": {
     "TargetLanguage": "English",
@@ -8,7 +8,7 @@
   "Options": {
     "MutagenObjectType": "GameplayOptionsGroupRoot",
     "GameplayOptionGroups": [
-      "000815:HTG-Regenesys-Core.esp"
+      "000008:HTG-Regenesys-Core.esp"
     ]
   }
 }
