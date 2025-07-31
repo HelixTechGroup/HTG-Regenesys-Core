@@ -1,0 +1,12 @@
+{
+  "FormKey": "00080B:HTG-Regenesys-Core.esp",
+  "EditorID": "LocalSystemRegistry_HTG-Regenesys-Core",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Local System Registry"
+  },
+  "Items": [
+    "000005:HTG-Regenesys-Core.esp"
+  ],
+  "AddToList": "000837:HTG-System-Core.esm"
+}

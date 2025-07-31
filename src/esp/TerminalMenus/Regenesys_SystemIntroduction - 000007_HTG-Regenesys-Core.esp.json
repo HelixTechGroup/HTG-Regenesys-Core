@@ -39,6 +39,13 @@
         "Value": "Project Regenesys is meant to provide players with a vanilla++ experience.\r\nWhile it try's to avoid major interference with the game and mod compatibility, some functionality and features do alter major records."
       },
       "UseTemplatedText": false
+    },
+    {
+      "Text": {
+        "TargetLanguage": "English",
+        "Value": ""
+      },
+      "UseTemplatedText": false
     }
   ],
   "MenuItems": [
@@ -68,6 +75,24 @@
           "ComparisonValue": 1.0
         }
       ]
+    },
+    {
+      "Text": {
+        "TargetLanguage": "English",
+        "Value": "Show Loaded Modules"
+      },
+      "ShortText": {
+        "TargetLanguage": "English",
+        "Value": "Loaded"
+      },
+      "Flags": [
+        "CreatesNewWindow"
+      ],
+      "UnusedISET2": "0x000000",
+      "ID": 2,
+      "Target": {
+        "MutagenObjectType": "TerminalMenuItemReturnToDesktop"
+      }
     },
     {
       "Text": {
