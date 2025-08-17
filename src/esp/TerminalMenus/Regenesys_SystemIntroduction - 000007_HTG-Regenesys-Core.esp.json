@@ -8,14 +8,14 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SystemUtilities",
-            "Object": "000005:HTG-Regenesys-Core.esp",
-            "Alias": 7
+            "Name": "FirstActivation",
+            "Object": "000003:HTG-Regenesys-Core.esp"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "FirstActivation",
-            "Object": "000003:HTG-Regenesys-Core.esp"
+            "Name": "Utilities",
+            "Object": "000005:HTG-Regenesys-Core.esp",
+            "Alias": 7
           }
         ]
       }
@@ -37,6 +37,13 @@
       "Text": {
         "TargetLanguage": "English",
         "Value": "Project Regenesys is meant to provide players with a vanilla++ experience.\r\nWhile it try's to avoid major interference with the game and mod compatibility, some functionality and features do alter major records."
+      },
+      "UseTemplatedText": false
+    },
+    {
+      "Text": {
+        "TargetLanguage": "English",
+        "Value": ""
       },
       "UseTemplatedText": false
     }
@@ -68,6 +75,24 @@
           "ComparisonValue": 1.0
         }
       ]
+    },
+    {
+      "Text": {
+        "TargetLanguage": "English",
+        "Value": "Show Loaded Modules"
+      },
+      "ShortText": {
+        "TargetLanguage": "English",
+        "Value": "Loaded"
+      },
+      "Flags": [
+        "CreatesNewWindow"
+      ],
+      "UnusedISET2": "0x000000",
+      "ID": 2,
+      "Target": {
+        "MutagenObjectType": "TerminalMenuItemReturnToDesktop"
+      }
     },
     {
       "Text": {
