@@ -13,6 +13,11 @@
         "Name": "HTG:Core:RegenesysModuleInformation",
         "Properties": [
           {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "RegenesysSystemRegistry",
+            "Object": "000809:HTG-Regenesys-Core.esp"
+          },
+          {
             "MutagenObjectType": "ScriptStructProperty",
             "Name": "Version",
             "Members": [
@@ -22,14 +27,9 @@
             ]
           },
           {
-            "MutagenObjectType": "ScriptStringProperty",
-            "Name": "description",
-            "Data": "Project Regenesys Template"
-          },
-          {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "RegenesysModuleRegistry",
-            "Object": "00080A:HTG-Regenesys-Core.esp"
+            "Name": "CollectionRegistry",
+            "Object": "000828:HTG-System-Core.esm"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
@@ -37,9 +37,9 @@
             "Object": "000832:HTG-System-Core.esm"
           },
           {
-            "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "RegenesysSystemRegistry",
-            "Object": "000809:HTG-Regenesys-Core.esp"
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "description",
+            "Data": "Project Regenesys Template"
           },
           {
             "MutagenObjectType": "ScriptStringProperty",
@@ -53,8 +53,8 @@
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "CollectionRegistry",
-            "Object": "000828:HTG-System-Core.esm"
+            "Name": "RegenesysModuleRegistry",
+            "Object": "00080A:HTG-Regenesys-Core.esp"
           }
         ]
       }

@@ -5,8 +5,5 @@
     "TargetLanguage": "English",
     "Value": "Regenesys System Registry"
   },
-  "Items": [
-    "000005:HTG-Regenesys-Core.esp"
-  ],
   "AddToList": "000837:HTG-System-Core.esm"
 }

@@ -38,6 +38,17 @@
         },
         "Scripts": [
           {
+            "Name": "HTG:SystemUtilities",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "ModInfoAlias",
+                "Object": "000005:HTG-Regenesys-Core.esp",
+                "Alias": 13
+              }
+            ]
+          },
+          {
             "Name": "htg:systemlogger",
             "Properties": [
               {
@@ -51,9 +62,6 @@
                 "Data": "Core"
               }
             ]
-          },
-          {
-            "Name": "HTG:SystemUtilities"
           }
         ]
       }
@@ -89,6 +97,11 @@
         "AllowReserved"
       ],
       "ALFG": 0,
+      "LinkedAliases": [
+        {
+          "AliasID": 7
+        }
+      ],
       "VoiceTypes": "Null"
     },
     {
@@ -113,6 +126,7 @@
       "Name": "DataslateTerminal",
       "Flags": [
         "AllowReuseInQuest",
+        "AllowReserved",
         "ExternalAliasLinked"
       ],
       "ALFG": 0,
@@ -130,9 +144,9 @@
       "ID": 12,
       "Name": "DataslateName",
       "Flags": [
-        "Optional",
         "QuestObject",
         "AllowReuseInQuest",
+        "AllowReserved",
         "UsesStoredText",
         "ExternalAliasLinked",
         "0x80000000",

@@ -8,14 +8,14 @@
         "Properties": [
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "SystemUtilities",
-            "Object": "000005:HTG-Regenesys-Core.esp",
-            "Alias": 7
+            "Name": "FirstActivation",
+            "Object": "000003:HTG-Regenesys-Core.esp"
           },
           {
             "MutagenObjectType": "ScriptObjectProperty",
-            "Name": "FirstActivation",
-            "Object": "000003:HTG-Regenesys-Core.esp"
+            "Name": "Utilities",
+            "Object": "000005:HTG-Regenesys-Core.esp",
+            "Alias": 7
           }
         ]
       }
